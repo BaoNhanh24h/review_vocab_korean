@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Từ Vựng Tiếng Hàn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Học Từ Vựng Tiếng Hàn</h1>
+    <input type="file" id="uploadExcel" accept=".xlsx">
+    <table id="vocabularyTable">
+        <thead>
+            <tr>
+                <th>Từ vựng (Ẩn)</th>
+                <th>Nghĩa Tiếng Việt</th>
+                <th>Nhập Từ Tiếng Hàn</th>
+                <th>Kết Quả</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu từ tệp Excel sẽ được điền ở đây -->
+        </tbody>
+    </table>
+    <button id="checkButton">Kiểm tra</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
