@@ -45,12 +45,12 @@ button:hover {
     background-color: #218838;
 }
 
-.correct {
+.correct i {
     color: green;
     font-weight: bold;
 }
 
-.incorrect {
+.incorrect i {
     color: red;
     font-weight: bold;
 }
